@@ -23,14 +23,6 @@ clásico y cómo identificarlo.
 - Bootstrap 5
 - jQuery / AJAX
 
-## Estructura
-├── index.php
-├── ajax.php
-├── Conexion.php
-├── includes/
-├── css/
-├── js/
-└── Recursos/
 
 ## Demo
 
@@ -38,4 +30,4 @@ clásico y cómo identificarlo.
 
 ## Autor
 
-Justin Granados — [LinkedIn](#) · [Portafolio](#)
+Justin Granados — [LinkedIn](https://www.linkedin.com/in/jostin-bautista-granados-quesada-0b309831b/) · [Portafolio](#)
