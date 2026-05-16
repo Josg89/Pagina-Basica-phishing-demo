@@ -1,2 +1,41 @@
 # Pagina-Basica-phishing-demo
 Demostración educativa de ataque de phishing para concientización en ciberseguridad
+# Phishing Demo 🎣
+
+> ⚠️ **PROYECTO EDUCATIVO** — Esta página simula un ataque de phishing 
+> con fines académicos. No ingrese datos reales.
+
+Demostración práctica de ingeniería social e-mail de phishing desarrollada 
+como proyecto de ciberseguridad. Muestra cómo funciona un ataque de phishing 
+clásico y cómo identificarlo.
+
+## ¿Qué demuestra?
+
+- Cómo se construye una página de phishing convincente
+- Recolección de datos mediante formularios falsos
+- Por qué nunca se deben ingresar datos en sitios no verificados
+
+## Tecnologías
+
+- PHP
+- MySQL
+- HTML / CSS
+- Bootstrap 5
+- jQuery / AJAX
+
+## Estructura
+├── index.php
+├── ajax.php
+├── Conexion.php
+├── includes/
+├── css/
+├── js/
+└── Recursos/
+
+## Demo
+
+[Ver demo](https://googletools.free.nf/?i=1)
+
+## Autor
+
+Justin Granados — [LinkedIn](#) · [Portafolio](#)
