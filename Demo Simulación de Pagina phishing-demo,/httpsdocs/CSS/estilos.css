@@ -1,0 +1,235 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #225ca3; /* Fondo azul claro */
+    color: #333;
+    
+}
+
+/* Encabezado */
+header {
+    background-color: #f4f9ff; /* Azul intenso */
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    font-size: 1.5rem;
+}
+
+/* Contenedor principal */
+#container {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    padding: 10px; /* Añade algo de espacio alrededor */
+    background-color:   #ffffff;
+}
+
+/* Imagen */
+.imgPrincipa {
+    text-align: left; /* Alinea la imagen a la izquierda */
+    margin: 0; /* Elimina márgenes extra */
+    padding: 0; /* Elimina el espacio alrededor */
+}
+
+#imgPrincipa img {
+    width: 180px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    display: block; /* Asegura que la imagen no se alinee con el texto */
+    margin: 0; /* Elimina cualquier margen */
+    padding: 0; /* Elimina cualquier espacio adicional */
+    
+}
+
+/* Pie de página */
+footer {
+    position: fixed; /* Fija el footer en la parte inferior */
+    bottom: 0; /* Lo coloca en la parte inferior de la ventana */
+    left: 0;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 0px 0; /* Espaciado dentro del footer */
+    z-index: 100; /* Asegura que el footer esté por encima de otros elementos */
+}
+
+.containerfooter {
+    position: relative;
+}
+
+.footer-top p {
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    margin: 0;
+}
+
+.footer-svg svg {
+    position: relative;
+    width: 1; /* Asegura que el SVG ocupe todo el ancho del footer */
+    height: auto;
+}
+
+/* Estilos globales para el header */
+
+
+header {
+    
+    background-color: #ffffff; /* Color blanco para simular la nube */
+    padding: 20px; /* Espaciado dentro del header */
+    text-align: center; /* Centra el contenido dentro del header */
+    border-radius: 19px; /* Bordes redondeados como una nube */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Sombra difusa para un efecto más esponjoso */
+    margin: -10px; /* Espacio exterior alrededor del header */
+}
+
+.header {
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    margin-bottom: 0; /* Elimina el espacio debajo */
+}
+
+
+/* Estilo de la imagen */
+#imgPrincipa img {
+    width: 180px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    padding: 10px 10; /* Elimina espaciado adicional */
+    margin-bottom: -30px; /* Reduce el espacio entre la imagen y los enlaces */
+    background-color: #ffffff;
+}
+
+/* Diseño de la navegación */
+nav {
+    width: 100%; /* Asegura que la barra de navegación ocupe todo el ancho */
+    padding: 10; /* Elimina espaciado adicional */
+}
+
+nav ul {
+    list-style: none; /* Elimina los puntos de lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utiliza flexbox para los elementos de la lista */
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+}
+
+nav ul li {
+    margin: 0 10px; /* Espaciado entre los elementos de la lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: rgb(12, 12, 12); /* Color de texto negro para los enlaces */
+    font-size: 18px; /* Tamaño de la fuente */
+    font-weight: bold; /* Hace que el texto sea más visible */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Cambia el color del texto al pasar el ratón */
+}
+
+
+/* Contenedor */
+#container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Hace que el formulario esté centrado verticalmente */
+    background-color: #e3eaf1;
+    padding: 120px;
+
+ 
+
+   
+    
+}
+
+/* Formulario */
+.form_register {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form_register:hover {
+    transform: translateY(-5px); /* Pequeño efecto flotante */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+/* Encabezado del Formulario */
+.form_register h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form_register hr {
+    border: none;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+/* Mensaje de Alerta */
+.alert {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Campos del Formulario */
+.form_register label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.form_register input[type="text"],
+.form_register input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+.form_register input[type="text"]:focus,
+.form_register input[type="email"]:focus {
+    border-color: #0099ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 153, 255, 0.5);
+}
+
+/* Botón */
+.btn_guardar {
+    background-color: #0099ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn_guardar:hover {
+    background-color: #007acc;
+    transform: translateY(-2px); /* Efecto de clic visual */
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+    .form_register {
+        padding: 20px;
+    }
+}
