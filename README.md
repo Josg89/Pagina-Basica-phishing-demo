@@ -28,6 +28,14 @@ clásico y cómo identificarlo.
 
 [Ver demo](https://googletools.free.nf/?i=1)
 
+## Instalación local
+
+1. Cloná el repo
+2. Copiá los archivos a tu carpeta `httpsdocs` (XAMPP) o `www` (WAMP)
+3. Importá el archivo `DB/db_captcha.sql` en phpMyAdmin
+4. Editá `Conexion.php` con tus datos de BD
+5. Accedé desde `http://localhost/phishing-demo`
+
 ## Autor
 
 Justin Granados — [LinkedIn](https://www.linkedin.com/in/jostin-bautista-granados-quesada-0b309831b/) · [Portafolio](#)
